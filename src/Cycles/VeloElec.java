@@ -65,4 +65,4 @@ public class VeloElec extends Velo {
         double puissance = velo3.getPuissance(90.0);
         System.out.println("Puissance pour velo3 avec 90.0 : " + puissance);
     }
-}
+} 
