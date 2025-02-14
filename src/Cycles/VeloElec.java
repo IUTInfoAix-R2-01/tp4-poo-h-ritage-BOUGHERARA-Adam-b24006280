@@ -37,10 +37,12 @@ public class VeloElec extends Velo {
         return this.puissanceMoteur;
     }
 
+    @Override
     public String toString(){
         return String.format("VeloElect[facteurPuissanceMoteur=%f]", this.puissanceMoteur);
     }
 
+    @Override
     public double getPuissance(double FrequenceCoupsDePedale) {
         return super.getPuissance(FrequenceCoupsDePedale) * VeloElec.DEFAULT_FACTEUR_PUISSANCE_MOTEUR;
     }
