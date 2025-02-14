@@ -11,7 +11,7 @@ L’annotation `@Override`, placée avant la définition d'une méthode, permet 
 
 
 ##  Question 8 :
-L'annotation `@Override` lèvera une exception si la méthode redéfinie est mal écrite.  Cela permet d'éviter les fautes de frappe lors de la définition de la fonction.
+L'annotation `@Override` lèvera une exception si la méthode redéfinie est mal écrite.  Cela permet d'éviter les fautes de frappe lors de la définition de la fonction. On peut donc s'en dispenser mais c'est recommandé pour avoir les bonnes pratiques.
 
 
 ##  Question 10 :
